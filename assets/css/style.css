@@ -28,8 +28,8 @@
     background-color: rgb(0, 0, 106);
     border: 2px solid #000;
 }
-#vierkant{
-    width: 285px;
+#vierkantmiddentop{
+    width: 295px;
     height:40px;
     background-color: white; 
     font-size: 30px;
@@ -37,13 +37,21 @@
     margin-top: 10px;
     margin-left: 20px;
 }
-#vierkant2{
+#vierkantright{
     width: 80px;
     height:80px;
     background-color: white;
-    font-size: 20px;
+    font-size: 40px;
     margin-top: 70px;
     margin-left: 25px;
+}
+#vierkantright2{
+    width: 60px;
+    height:40px;
+    background-color: white;
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: 45px;
 }
 #vierkantmidden{
     width: 550px;
@@ -52,6 +60,17 @@
     font-size: 20px;
     margin-left: -25px;
 }
+#circle {
+    width: 200px;
+    height: 200px;
+    -webkit-border-radius: 205px;
+    -moz-border-radius: 205px;
+    border-radius: 205px;
+    border: 2px solid #000;
+    background: white;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
 #next{
     width: 550px;
     height:40px;
@@ -59,14 +78,14 @@
     font-size: 30px;
     color:rgb(254, 254, 254);
     border: 2px solid #000;
-    margin-top: 120px;
+    margin-top: 180px;
    margin-left: -560px;
 }
 #Nes{
-   margin-left: 450px;
+   margin-left: 470px;
    margin-top: -40px;
 }
 #tram{
-    margin-left:220px;
+    margin-left:250px;
    margin-top: -80px;
 }
