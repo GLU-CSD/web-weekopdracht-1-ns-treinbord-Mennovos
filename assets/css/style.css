@@ -60,7 +60,7 @@
     width: 60px;
     height:40px;
     font-size: 20px;
-    margin-top: -70px;
+    margin-top: -80px;
     margin-left: 35px;
 }
 #vierkantmidden{
@@ -81,7 +81,7 @@
     font-size: 10px;
     color:rgb(254, 254, 254);
     border: 2px solid #000;
-    margin-top: 180px;
+    margin-top: 200px;
    margin-left: -560px;
 }
 #Nes{
@@ -89,7 +89,7 @@
    margin-top: -15px;
 }
 #tram{
-    margin-left:235px;
+    margin-left:295px;
    margin-top: -80px;
 }
 #vecile{
