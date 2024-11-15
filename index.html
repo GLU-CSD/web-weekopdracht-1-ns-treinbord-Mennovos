@@ -7,45 +7,41 @@
     <title>Weekopdracht - NS-Treinbord</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <div id="container">
-        <div id="left">
-            <!--startof the clock-->
-            <div id="klok">
-                <img src="assets/img/Schermafbeelding_2024-11-14_112557-removebg-preview.png" alt="Workplace" width="190" height="180">
-            </div>
-        </div>
         <div id="middle">
-        <!--hughe blok in het midden van de container-->
+            <!--hughe blok in het midden van de container-->
             <div id="vierkantmidden">
-                 <!--the 1 minute blok-->
+                <!--the 1 minute blok-->
                 <div id="vierkantmiddentop">
                     <h1 style="font-family:Courier New;">1 minute</h1>
                 </div>
-                 <!--the track logo-->
+                <!--the track logo-->
                 <div id="Nes">
                     <img src="assets/img/ns_logo.png" alt="Logo" width="80" height="40">
                 </div>
-                 <!--the intercity in the top right corner-->
+                <!--the intercity in the top right corner-->
                 <div id="tram">
                     <h1><span style="color:rgb(0,0,106);font-family:Courier New">Intercity</span></h1>
                 </div>
-                 <!--the text beneaththe 1 minute blok-->
+                <!--the text beneaththe 1 minute blok-->
                 <h1><span style="color:rgb(0,0,106);font-family:Courier New">Heerlen</span></h1>
-                <div><span style="color:rgb(0,0,106);font-family:Courier New">via S-Hertogenbosch, Eindhoven,Weert, Roermond en Sittard.</span>
+                <div><span style="color:rgb(0,0,106);font-family:Courier New">via S-Hertogenbosch, Eindhoven,Weert,
+                        Roermond en Sittard.</span>
                 </div>
             </div>
         </div>
         <div id="right">
-             <!--tracknumber-->
+            <!--tracknumber-->
             <div id="vierkantright">
-               18B
+                18B
             </div>
-             <!--text for track-->
+            <!--text for track-->
             <div id="vierkantright2">
-            spoor
+                spoor
             </div>
-             <!--next train number shown-->
+            <!--next train number shown-->
             <div id="next">
                 <h1 style="font-family:Courier New;">Next train incoming runnnnnn!!!!!!!!</h1>
             </div>
@@ -53,20 +49,23 @@
     </div>
     <div id="vecile">
         <img src="assets/img/trein.png" alt="train" width="1505" height="500">
-    </div> 
+    </div>
+    <div id="left">
+        <!-- partial:index.partial.html -->
+        <div class="page-header"> Analog Clock </div>
+        <div class="clock">
+            <div class="hour"></div>
+            <div class="min"></div>
+            <div class="sec"></div>
+        </div>
+        <div class="switch-cont">
+            <button class="switch-btn"> Light </button>
+        </div>
+    </div>
+    </div>
 
-    <!-- partial:index.partial.html -->
-<div class="page-header"> Analog Clock </div>
-<div class="clock">
-  <div class="hour"></div>
-  <div class="min"></div>
-  <div class="sec"></div>
-</div>
-<div class="switch-cont">
-  <button class="switch-btn"> Light </button>
-</div>
-<!-- partial -->
-<script  src="./script.js"></script>
+    <!-- partial -->
+    <script src="./script.js"></script>
 </body>
 
 </html>
